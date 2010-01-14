@@ -1,0 +1,9 @@
+#!/usr/bin/make -f
+
+unexport CFLAGS
+
+%:
+	dh $@
+
+override_dh_auto_test:
+	# Testsuite requires working TCP/IP and a non-interactive mode
