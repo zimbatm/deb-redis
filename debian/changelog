@@ -1,3 +1,10 @@
+redis (2:1.2.0-1ubuntu1) lucid; urgency=low
+
+  * New upstream stable release. 
+  * redis.conf updated with new stuff.
+
+ -- Jonas Pfenniger <jonas@pfenniger.name>  Thu, 04 Aug 2011 05:27:26 -0700
+
 redis (2:1.2.0-1) unstable; urgency=low
 
   * New upstream stable release.
